@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/preview-card-component/static/css/main.a386eb3a.chunk.css",
-    "main.js": "/preview-card-component/static/js/main.a3f9799a.chunk.js",
-    "main.js.map": "/preview-card-component/static/js/main.a3f9799a.chunk.js.map",
+    "main.css": "/preview-card-component/static/css/main.4cda9158.chunk.css",
+    "main.js": "/preview-card-component/static/js/main.7a9c64ff.chunk.js",
+    "main.js.map": "/preview-card-component/static/js/main.7a9c64ff.chunk.js.map",
     "runtime-main.js": "/preview-card-component/static/js/runtime-main.c9a5bf96.js",
     "runtime-main.js.map": "/preview-card-component/static/js/runtime-main.c9a5bf96.js.map",
     "static/js/2.971f78ea.chunk.js": "/preview-card-component/static/js/2.971f78ea.chunk.js",
     "static/js/2.971f78ea.chunk.js.map": "/preview-card-component/static/js/2.971f78ea.chunk.js.map",
     "index.html": "/preview-card-component/index.html",
-    "static/css/main.a386eb3a.chunk.css.map": "/preview-card-component/static/css/main.a386eb3a.chunk.css.map",
+    "static/css/main.4cda9158.chunk.css.map": "/preview-card-component/static/css/main.4cda9158.chunk.css.map",
     "static/js/2.971f78ea.chunk.js.LICENSE.txt": "/preview-card-component/static/js/2.971f78ea.chunk.js.LICENSE.txt",
     "static/media/icon-clock.991a6522.svg": "/preview-card-component/static/media/icon-clock.991a6522.svg",
     "static/media/icon-ethereum.5221f332.svg": "/preview-card-component/static/media/icon-ethereum.5221f332.svg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.c9a5bf96.js",
     "static/js/2.971f78ea.chunk.js",
-    "static/css/main.a386eb3a.chunk.css",
-    "static/js/main.a3f9799a.chunk.js"
+    "static/css/main.4cda9158.chunk.css",
+    "static/js/main.7a9c64ff.chunk.js"
   ]
 }
