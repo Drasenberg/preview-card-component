@@ -1,0 +1,114 @@
+@import "variables";
+
+.mainCard {
+  background-color: $veryDarkBlueCardBg;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding-top: 20px;
+  .container {
+    width: 300px;
+    .img {
+      position: relative;
+      .image {
+        width: 300px;
+      }
+      &::after,
+      &::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+      }
+      &:hover::after {
+        content: "";
+        background-color: $cyan;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        animation: overlay 1s both;
+      }
+      &:hover::before {
+        content: url("../images/icon-view.svg");
+        z-index: 1;
+      }
+      @keyframes overlay {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0.5;
+        }
+      }
+    }
+    h1 {
+      color: $white;
+      font-weight: 400;
+      font-size: 1.125em;
+      line-height: 2em;
+      transition: color 2s;
+    }
+    h1:hover {
+      color: $cyan;
+      cursor: pointer;
+    }
+    .description {
+      color: $softBlue;
+      line-height: 1.5em;
+      width: 300px;
+      font-weight: 300;
+    }
+    .expansInfo {
+      display: flex;
+      justify-content: space-between;
+      .amount {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        color: $cyan;
+        font-weight: 600;
+      }
+      .timeLeft {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        color: $softBlue;
+        font-weight: 300;
+      }
+    }
+    .line {
+      width: 100%;
+      height: 1px;
+      background-color: $veryDarkBlueLine;
+    }
+    .author {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      padding: 0.5em 0;
+      img {
+        width: 30px;
+        height: 30px;
+        border: 1px solid $white;
+        border-radius: 50vw;
+      }
+      p {
+        color: $softBlue;
+        font-weight: 300;
+        font-size: 15px;
+        span {
+          transition: color 2s;
+          color: $white;
+        &:hover {
+          color: $cyan;
+          cursor: pointer;
+        }
+        }
+      }
+    }
+  }
+}
